@@ -1,0 +1,39 @@
+.todoContainer {
+  padding: 20px;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.todoTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.todoTable th,
+.todoTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.todoTable th {
+  background-color: #f4f4f4;
+}
+
+.completed td {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todoTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.todoTable button {
+  padding: 5px 10px;
+  cursor: pointer;
+}

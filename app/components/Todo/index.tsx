@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Button from "../../../components/ui/Button/Button";
 import DialogCreationTodo from "./components/DialogCreationTodo/DialogCreationTodo";
 import styles from "./index.module.css"; // import module CSS
+import TableComponent from "@/components/ui/TableComponent/TableComponent";
+import { TableTodo } from "../../Column";
 
 interface Todo {
   id: number;
@@ -55,33 +57,7 @@ function TodoComponent() {
         />
       </div>
 
-      {/* <table className={styles.todoTable}>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Title</th>
-            <th>Completed</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {todos.map((todo) => (
-            <tr
-              key={todo.id}
-              className={todo.completed ? styles.completed : ""}
-            >
-              <td>{todo.id}</td>
-              <td>{todo.title}</td>
-              <td>{todo.completed ? "Yes" : "No"}</td>
-              <td>
-                <button onClick={() => toggleComplete(todo.id)}>
-                  {todo.completed ? "Undo" : "Complete"}
-                </button>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table> */}
+      <TableComponent columns={TableTodo.columns} data={todos} />
 
       <DialogCreationTodo
         visible={isOpenDialogCreation}

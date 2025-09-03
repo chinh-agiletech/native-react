@@ -1,7 +1,7 @@
+import Button from "@/components/ui/Button/Button";
+import DialogCustom from "@/components/ui/DialogCustom/DialogCustom";
 import React from "react";
-import { View, StyleSheet, Text } from "react-native";
-import Button from "@/app/components/UI/Button/Button";
-import DialogCustom from "@/app/components/UI/DialogCustom/DialogCustom";
+import { StyleSheet, Text, View } from "react-native";
 
 interface DialogDeleteProps {
   isVisible: boolean;

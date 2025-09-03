@@ -1,10 +1,10 @@
-import React from "react";
-import { View, StyleSheet, Text } from "react-native";
-import Button from "@/app/components/UI/Button/Button";
-import DialogCustom from "@/app/components/UI/DialogCustom/DialogCustom";
-import CInput from "@/app/components/UI/CInput/CInput";
 import { ThemedText } from "@/components/ThemedText";
+import Button from "@/components/ui/Button/Button";
+import CInput from "@/components/ui/CInput/CInput";
+import DialogCustom from "@/components/ui/DialogCustom/DialogCustom";
 import { FormikProvider, useFormik } from "formik";
+import React from "react";
+import { StyleSheet, View } from "react-native";
 import * as Yup from "yup";
 
 interface DialogUpdateTodoProps {

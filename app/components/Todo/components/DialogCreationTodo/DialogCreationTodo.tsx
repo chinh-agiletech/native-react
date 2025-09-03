@@ -1,7 +1,7 @@
-import Button from "@/app/components/UI/Button/Button";
-import CInput from "@/app/components/UI/CInput/CInput";
-import DialogCustom from "@/app/components/UI/DialogCustom/DialogCustom";
 import { ThemedText } from "@/components/ThemedText";
+import Button from "@/components/ui/Button/Button";
+import CInput from "@/components/ui/CInput/CInput";
+import DialogCustom from "@/components/ui/DialogCustom/DialogCustom";
 import { FormikProvider, useFormik } from "formik";
 import React from "react";
 import { StyleSheet, View } from "react-native";

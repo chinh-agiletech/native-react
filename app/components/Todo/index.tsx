@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import Button from "../../../components/ui/Button/Button";
 import DialogCreationTodo from "./components/DialogCreationTodo/DialogCreationTodo";
-import Button from "../UI/Button/Button";
 import styles from "./index.module.css"; // import module CSS
 
 interface Todo {

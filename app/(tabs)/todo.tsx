@@ -1,6 +1,6 @@
 
-import TodoComponent from "../components/Todo";
 import { ThemedView } from '@/components/ThemedView';
+import TodoComponent from '../Screen/Todo';
 
 function TodoPage() {
   return (
